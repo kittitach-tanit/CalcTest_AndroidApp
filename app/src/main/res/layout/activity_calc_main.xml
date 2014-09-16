@@ -1,0 +1,204 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".CalcMain">
+
+    <Button
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:text="@string/numOne"
+        android:id="@+id/bOne"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold"
+        android:textSize="50sp" />
+
+    <Button
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:text="@string/numTwo"
+        android:id="@+id/bTwo"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/bOne"
+        android:layout_toEndOf="@+id/bOne"
+        android:textStyle="bold"
+        android:textSize="50sp" />
+
+    <Button
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:text="@string/numThree"
+        android:id="@+id/bThree"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/bTwo"
+        android:layout_toEndOf="@+id/bTwo"
+        android:textStyle="bold"
+        android:textSize="50sp" />
+
+    <Button
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:text="@string/numZero"
+        android:id="@+id/bZero"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/bThree"
+        android:layout_toRightOf="@+id/bThree"
+        android:textStyle="bold"
+        android:textSize="50sp" />
+
+    <Button
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:text="@string/numFour"
+        android:id="@+id/bFour"
+        android:layout_above="@+id/bOne"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold"
+        android:textSize="50sp" />
+
+    <Button
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:text="@string/numFive"
+        android:id="@+id/bFive"
+        android:layout_above="@+id/bTwo"
+        android:layout_toEndOf="@+id/bFour"
+        android:layout_toRightOf="@+id/bFour"
+        android:textStyle="bold"
+        android:textSize="50sp" />
+
+    <Button
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:text="@string/numSix"
+        android:id="@+id/bSix"
+        android:layout_above="@+id/bThree"
+        android:layout_toEndOf="@+id/bFive"
+        android:layout_toRightOf="@+id/bFive"
+        android:textStyle="bold"
+        android:textSize="50sp" />
+
+    <Button
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:text="@string/numPlus"
+        android:id="@+id/bPlus"
+        android:layout_above="@+id/bZero"
+        android:layout_toEndOf="@+id/bSix"
+        android:layout_toRightOf="@+id/bSix"
+        android:textStyle="bold"
+        android:textSize="50sp" />
+
+    <Button
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:text="@string/numSeven"
+        android:id="@+id/bSeven"
+        android:layout_above="@+id/bFour"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold"
+        android:textSize="50sp" />
+
+    <Button
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:text="@string/numEight"
+        android:id="@+id/bEight"
+        android:layout_above="@+id/bFive"
+        android:layout_toEndOf="@+id/bSeven"
+        android:layout_toRightOf="@+id/bSeven"
+        android:textStyle="bold"
+        android:textSize="50sp" />
+
+    <Button
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:text="@string/numNine"
+        android:id="@+id/bNine"
+        android:layout_above="@+id/bSix"
+        android:layout_toEndOf="@+id/bEight"
+        android:layout_toRightOf="@+id/bEight"
+        android:textStyle="bold"
+        android:textSize="50sp" />
+
+    <Button
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:text="@string/numMinus"
+        android:id="@+id/bMinus"
+        android:layout_above="@+id/bPlus"
+        android:layout_toEndOf="@+id/bNine"
+        android:layout_toRightOf="@+id/bNine"
+        android:textStyle="bold"
+        android:textSize="50sp" />
+
+    <Button
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:text="@string/numCls"
+        android:id="@+id/bCls"
+        android:layout_above="@+id/bSeven"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold"
+        android:textSize="40sp" />
+
+    <Button
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:text="@string/numDiv"
+        android:id="@+id/bDiv"
+        android:layout_above="@+id/bEight"
+        android:layout_toEndOf="@+id/bCls"
+        android:layout_toRightOf="@+id/bCls"
+        android:textStyle="bold"
+        android:textSize="50sp" />
+
+    <Button
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:text="@string/numMult"
+        android:id="@+id/bMult"
+        android:layout_above="@+id/bNine"
+        android:layout_toEndOf="@+id/bDiv"
+        android:layout_toRightOf="@+id/bDiv"
+        android:textStyle="bold"
+        android:textSize="50sp" />
+
+    <Button
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:text="@string/numEq"
+        android:id="@+id/bEq"
+        android:layout_above="@+id/bMinus"
+        android:layout_toEndOf="@+id/bMult"
+        android:layout_toRightOf="@+id/bMult"
+        android:textStyle="bold"
+        android:textSize="50sp" />
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:text="@string/numZero"
+            android:id="@+id/numDisp"
+            android:layout_gravity="center_horizontal|top"
+            android:textSize="50sp"
+            android:textIsSelectable="true" />
+    </FrameLayout>
+
+</RelativeLayout>

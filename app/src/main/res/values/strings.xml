@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CalcTest</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="numOne">1</string>
+    <string name="numTwo">2</string>
+    <string name="numThree">3</string>
+    <string name="numFour">4</string>
+    <string name="numFive">5</string>
+    <string name="numSix">6</string>
+    <string name="numSeven">7</string>
+    <string name="numEight">8</string>
+    <string name="numNine">9</string>
+    <string name="numZero">0</string>
+    <string name="numPlus">+</string>
+    <string name="numMinus">-</string>
+    <string name="numMult">x</string>
+    <string name="numDiv">/</string>
+    <string name="numEq">=</string>
+    <string name="numCls">cls</string>
+
+</resources>
